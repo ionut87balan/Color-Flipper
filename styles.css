@@ -1,0 +1,87 @@
+/* styles.css */
+
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #33217c;
+}
+
+nav {
+    background-color: #6bcb17;
+    color: rgb(140, 78, 78);
+    padding: 2rem;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.nav-center {
+    border: 1px solid #ccc;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-right: 50px;
+    padding-left: 50px;
+    margin: auto;
+    text-align: center;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nav-links li {
+    border: 1px solid #ccc;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-right: 50px;
+    padding-left: 50px;
+    margin: auto;
+    text-align: center;
+}
+    
+.nav-links a {
+    text-decoration: none;
+    color: rgb(76, 89, 166);
+    font-weight: bold;
+
+}
+
+.container {
+    text-align: center;
+    margin: 50px auto;
+    width: 60%;
+}
+
+
+h4 {
+    display: block;
+    margin: 30px auto;
+
+}
+.color {
+    color: #b57c20;
+}
+
+.btn {
+    background-color: #3498db;
+    color: rgb(101, 15, 80);
+    border-radius: 10px 10px 10px 10px;
+    padding: 15px 25px 15px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+/* Hex color flipper specific styles */
+.container-hex {
+    text-align: center;
+    margin-top: 500px;
+}
+
+/* Alte modificări pe care le dorești */
